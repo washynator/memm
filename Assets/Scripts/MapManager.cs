@@ -9,10 +9,10 @@ public class MapManager : MonoBehaviour
     public GameObject groundTilePrefab;
     public static GameObject[,] groundTiles;
 
-    private int mapX = 5;
-    private int mapY = 5;
+    private int mapX = 50;
+    private int mapY = 50;
 
-	void Start ()
+	void Awake ()
 	{
         Instance = this;
 
